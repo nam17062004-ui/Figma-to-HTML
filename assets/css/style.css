@@ -569,3 +569,69 @@ a {
   background: rgba(255, 185, 0, 1);
   cursor: none;
 }
+/* footer */
+.footer {
+  background: rgba(46, 33, 0, 1);
+  padding: 96px 135px 0px;
+}
+.footer .row {
+  border-bottom: 1px solid rgba(89, 85, 75, 1);
+  display: flex;
+  padding-bottom: 38px;
+}
+.footer .row .column {
+  width: 21.6%;
+}
+.footer .row .column:first-child {
+  width: 35%;
+}
+.footer .row .column .desc {
+  margin-top: 18px;
+  max-width: 267px;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: rgba(191, 188, 178, 1);
+}
+.footer .row .column .icon {
+  margin-top: 18px;
+  width: 18px;
+  height: 15px;
+}
+.footer .row .title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  display: inline-block;
+  border-bottom: 1px solid #59554b;
+  padding-bottom: 14px;
+  padding-right: 48px;
+  color: rgba(255, 255, 255, 1);
+}
+.footer .row .column .list {
+  margin-top: 28px;
+}
+.footer .row .column .list li a {
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: rgba(191, 188, 178, 1);
+
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.footer .row .column .list li :last-child {
+  margin-bottom: 0px;
+}
+.footer .row .column .list li a strong {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer .copyright {
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: rgba(128, 125, 116, 1);
+  text-align: center;
+  padding: 28px;
+}
